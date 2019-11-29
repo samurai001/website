@@ -1,4 +1,4 @@
-FROM ubuntu
-
-RUN yum -y install httpd
+FROM hshar/webapp
 ADD . /var/www/html
+
+
